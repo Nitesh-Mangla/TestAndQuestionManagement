@@ -21,7 +21,7 @@ npm: npm is installed automatically with Node.js.
 MongoDB: Install MongoDB (https://www.mongodb.com/docs/manual/installation/) (either locally or using a cloud service like MongoDB Atlas)
 
 Steps to Install
-# git clone https://github.com/your-username/your-repo-name.git
+# git clone https://github.com/Nitesh-Mangla/TestAndQuestionManagement/tree/main/learning_management_system
 Install Dependencies
 # npm install
 Set Up Environment Variables
