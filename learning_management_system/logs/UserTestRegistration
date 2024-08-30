@@ -1,0 +1,360 @@
+
+8/30/2024, 11:42:39 AM: info:request params {
+  user_details: {
+    id: '66d1627d1fc42fd0ef82bf23',
+    name: 'Nitesh Mangla',
+    email: 'nitesh.mangla@myparkplus.com',
+    contact_no: 8860315256,
+    role: 'user',
+    iat: 1724998289,
+    exp: 1727590289
+  }
+}rs/admin/Desktop/projects/assignment/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/admin/Desktop/projects/assignment/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/admin/Desktop/projects/assignment/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/admin/Desktop/projects/assignment/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/admin/Desktop/projects/assignment/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/admin/Desktop/projects/assignment/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/admin/Desktop/projects/assignment/node_modules/express/lib/router/index.js:280:10)
+    at /Users/admin/Desktop/projects/assignment/Middleware/AccessControl.js:33:14
+    at Layer.handle [as handle_request] (/Users/admin/Desktop/projects/assignment/node_modules/express/lib/router/layer.js:95:5)
+8/30/2024, 11:43:26 AM: info:request params {
+  user_details: {
+    id: '66d1627d1fc42fd0ef82bf23',
+    name: 'Nitesh Mangla',
+    email: 'nitesh.mangla@myparkplus.com',
+    contact_no: 8860315256,
+    role: 'user',
+    iat: 1724998289,
+    exp: 1727590289
+  }
+}
+8/30/2024, 11:43:26 AM: info:request params {
+  user_details: {
+    id: '66d1627d1fc42fd0ef82bf23',
+    name: 'Nitesh Mangla',
+    email: 'nitesh.mangla@myparkplus.com',
+    contact_no: 8860315256,
+    role: 'user',
+    iat: 1724998289,
+    exp: 1727590289
+  }
+}
+8/30/2024, 11:43:26 AM: error:Failed to user register for test Error: UsersTest validation failed: expire_on: Path `expire_on` is required.
+    at ValidationError.inspect (/Users/admin/Desktop/projects/assignment/node_modules/mongoose/lib/error/validation.js:50:26)
+    at formatValue (node:internal/util/inspect:805:19)
+    at Object.inspect (node:internal/util/inspect:364:10)
+    at exports.registerUserForTest (/Users/admin/Desktop/projects/assignment/Controllers/UsersTest.js:45:87)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  errors: {
+    expire_on: ValidatorError: Path `expire_on` is required.
+        at validate (/Users/admin/Desktop/projects/assignment/node_modules/mongoose/lib/schemaType.js:1367:13)
+        at SchemaType.doValidate (/Users/admin/Desktop/projects/assignment/node_modules/mongoose/lib/schemaType.js:1351:7)
+        at /Users/admin/Desktop/projects/assignment/node_modules/mongoose/lib/document.js:2982:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `expire_on` is required.',
+        type: 'required',
+        path: 'expire_on',
+        fullPath: undefined,
+        value: null
+      },
+      kind: 'required',
+      path: 'expire_on',
+      value: null,
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'UsersTest validation failed'
+}
+8/30/2024, 11:43:26 AM: error:Failed to user register for test Error: UsersTest validation failed: expire_on: Path `expire_on` is required.
+    at ValidationError.inspect (/Users/admin/Desktop/projects/assignment/node_modules/mongoose/lib/error/validation.js:50:26)
+    at formatValue (node:internal/util/inspect:805:19)
+    at Object.inspect (node:internal/util/inspect:364:10)
+    at exports.registerUserForTest (/Users/admin/Desktop/projects/assignment/Controllers/UsersTest.js:45:87)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  errors: {
+    expire_on: ValidatorError: Path `expire_on` is required.
+        at validate (/Users/admin/Desktop/projects/assignment/node_modules/mongoose/lib/schemaType.js:1367:13)
+        at SchemaType.doValidate (/Users/admin/Desktop/projects/assignment/node_modules/mongoose/lib/schemaType.js:1351:7)
+        at /Users/admin/Desktop/projects/assignment/node_modules/mongoose/lib/document.js:2982:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `expire_on` is required.',
+        type: 'required',
+        path: 'expire_on',
+        fullPath: undefined,
+        value: null
+      },
+      kind: 'required',
+      path: 'expire_on',
+      value: null,
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'UsersTest validation failed'
+}
+8/30/2024, 11:44:09 AM: info:request params {
+  user_details: {
+    id: '66d1627d1fc42fd0ef82bf23',
+    name: 'Nitesh Mangla',
+    email: 'nitesh.mangla@myparkplus.com',
+    contact_no: 8860315256,
+    role: 'user',
+    iat: 1724998289,
+    exp: 1727590289
+  }
+}
+8/30/2024, 11:44:09 AM: info:request params {
+  user_details: {
+    id: '66d1627d1fc42fd0ef82bf23',
+    name: 'Nitesh Mangla',
+    email: 'nitesh.mangla@myparkplus.com',
+    contact_no: 8860315256,
+    role: 'user',
+    iat: 1724998289,
+    exp: 1727590289
+  }
+}
+8/30/2024, 11:50:43 AM: info:request params {
+  user_details: {
+    id: '66d1627d1fc42fd0ef82bf23',
+    name: 'Nitesh Mangla',
+    email: 'nitesh.mangla@myparkplus.com',
+    contact_no: 8860315256,
+    role: 'user',
+    iat: 1724998289,
+    exp: 1727590289
+  }
+}
+8/30/2024, 11:50:43 AM: info:request params {
+  user_details: {
+    id: '66d1627d1fc42fd0ef82bf23',
+    name: 'Nitesh Mangla',
+    email: 'nitesh.mangla@myparkplus.com',
+    contact_no: 8860315256,
+    role: 'user',
+    iat: 1724998289,
+    exp: 1727590289
+  }
+}
+8/30/2024, 11:50:43 AM: error:Failed to user register for test MongoServerError: E11000 duplicate key error collection: question_management.userstests index: user_id_1 dup key: { user_id: ObjectId('66d1627d1fc42fd0ef82bf23') }
+    at InsertOneOperation.execute (/Users/admin/Desktop/projects/assignment/node_modules/mongodb/lib/operations/insert.js:48:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeOperationAsync (/Users/admin/Desktop/projects/assignment/node_modules/mongodb/lib/operations/execute_operation.js:106:16) {
+  index: 0,
+  code: 11000,
+  keyPattern: { user_id: 1 },
+  keyValue: { user_id: new ObjectId('66d1627d1fc42fd0ef82bf23') },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+8/30/2024, 11:50:43 AM: error:Failed to user register for test MongoServerError: E11000 duplicate key error collection: question_management.userstests index: user_id_1 dup key: { user_id: ObjectId('66d1627d1fc42fd0ef82bf23') }
+    at InsertOneOperation.execute (/Users/admin/Desktop/projects/assignment/node_modules/mongodb/lib/operations/insert.js:48:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeOperationAsync (/Users/admin/Desktop/projects/assignment/node_modules/mongodb/lib/operations/execute_operation.js:106:16) {
+  index: 0,
+  code: 11000,
+  keyPattern: { user_id: 1 },
+  keyValue: { user_id: new ObjectId('66d1627d1fc42fd0ef82bf23') },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+8/30/2024, 11:50:58 AM: info:request params {
+  user_details: {
+    id: '66d1627d1fc42fd0ef82bf23',
+    name: 'Nitesh Mangla',
+    email: 'nitesh.mangla@myparkplus.com',
+    contact_no: 8860315256,
+    role: 'user',
+    iat: 1724998289,
+    exp: 1727590289
+  }
+}
+8/30/2024, 11:50:58 AM: info:request params {
+  user_details: {
+    id: '66d1627d1fc42fd0ef82bf23',
+    name: 'Nitesh Mangla',
+    email: 'nitesh.mangla@myparkplus.com',
+    contact_no: 8860315256,
+    role: 'user',
+    iat: 1724998289,
+    exp: 1727590289
+  }
+}
+8/30/2024, 11:50:58 AM: error:Failed to user register for test MongoServerError: E11000 duplicate key error collection: question_management.userstests index: user_id_1 dup key: { user_id: ObjectId('66d1627d1fc42fd0ef82bf23') }
+    at InsertOneOperation.execute (/Users/admin/Desktop/projects/assignment/node_modules/mongodb/lib/operations/insert.js:48:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeOperationAsync (/Users/admin/Desktop/projects/assignment/node_modules/mongodb/lib/operations/execute_operation.js:106:16) {
+  index: 0,
+  code: 11000,
+  keyPattern: { user_id: 1 },
+  keyValue: { user_id: new ObjectId('66d1627d1fc42fd0ef82bf23') },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+8/30/2024, 11:50:58 AM: error:Failed to user register for test MongoServerError: E11000 duplicate key error collection: question_management.userstests index: user_id_1 dup key: { user_id: ObjectId('66d1627d1fc42fd0ef82bf23') }
+    at InsertOneOperation.execute (/Users/admin/Desktop/projects/assignment/node_modules/mongodb/lib/operations/insert.js:48:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeOperationAsync (/Users/admin/Desktop/projects/assignment/node_modules/mongodb/lib/operations/execute_operation.js:106:16) {
+  index: 0,
+  code: 11000,
+  keyPattern: { user_id: 1 },
+  keyValue: { user_id: new ObjectId('66d1627d1fc42fd0ef82bf23') },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+8/30/2024, 11:51:21 AM: info:request params {
+  user_details: {
+    id: '66d1627d1fc42fd0ef82bf23',
+    name: 'Nitesh Mangla',
+    email: 'nitesh.mangla@myparkplus.com',
+    contact_no: 8860315256,
+    role: 'user',
+    iat: 1724998289,
+    exp: 1727590289
+  }
+}
+8/30/2024, 11:51:21 AM: info:request params {
+  user_details: {
+    id: '66d1627d1fc42fd0ef82bf23',
+    name: 'Nitesh Mangla',
+    email: 'nitesh.mangla@myparkplus.com',
+    contact_no: 8860315256,
+    role: 'user',
+    iat: 1724998289,
+    exp: 1727590289
+  }
+}
+8/30/2024, 11:52:21 AM: info:request params {
+  user_details: {
+    id: '66d1627d1fc42fd0ef82bf23',
+    name: 'Nitesh Mangla',
+    email: 'nitesh.mangla@myparkplus.com',
+    contact_no: 8860315256,
+    role: 'user',
+    iat: 1724998289,
+    exp: 1727590289
+  }
+}
+8/30/2024, 11:52:21 AM: info:request params {
+  user_details: {
+    id: '66d1627d1fc42fd0ef82bf23',
+    name: 'Nitesh Mangla',
+    email: 'nitesh.mangla@myparkplus.com',
+    contact_no: 8860315256,
+    role: 'user',
+    iat: 1724998289,
+    exp: 1727590289
+  }
+}
+8/30/2024, 11:56:41 AM: info:request params {
+  user_details: {
+    id: '66d1627d1fc42fd0ef82bf23',
+    name: 'Nitesh Mangla',
+    email: 'nitesh.mangla@myparkplus.com',
+    contact_no: 8860315256,
+    role: 'user',
+    iat: 1724998289,
+    exp: 1727590289
+  }
+}
+8/30/2024, 11:56:41 AM: info:request params {
+  user_details: {
+    id: '66d1627d1fc42fd0ef82bf23',
+    name: 'Nitesh Mangla',
+    email: 'nitesh.mangla@myparkplus.com',
+    contact_no: 8860315256,
+    role: 'user',
+    iat: 1724998289,
+    exp: 1727590289
+  }
+}
+8/30/2024, 11:57:16 AM: info:request params {
+  user_details: {
+    id: '66d1627d1fc42fd0ef82bf23',
+    name: 'Nitesh Mangla',
+    email: 'nitesh.mangla@myparkplus.com',
+    contact_no: 8860315256,
+    role: 'user',
+    iat: 1724998289,
+    exp: 1727590289
+  }
+}
+8/30/2024, 11:57:16 AM: info:request params {
+  user_details: {
+    id: '66d1627d1fc42fd0ef82bf23',
+    name: 'Nitesh Mangla',
+    email: 'nitesh.mangla@myparkplus.com',
+    contact_no: 8860315256,
+    role: 'user',
+    iat: 1724998289,
+    exp: 1727590289
+  }
+}
+8/30/2024, 11:57:21 AM: info:request params {
+  user_details: {
+    id: '66d1627d1fc42fd0ef82bf23',
+    name: 'Nitesh Mangla',
+    email: 'nitesh.mangla@myparkplus.com',
+    contact_no: 8860315256,
+    role: 'user',
+    iat: 1724998289,
+    exp: 1727590289
+  }
+}
+8/30/2024, 11:57:21 AM: info:request params {
+  user_details: {
+    id: '66d1627d1fc42fd0ef82bf23',
+    name: 'Nitesh Mangla',
+    email: 'nitesh.mangla@myparkplus.com',
+    contact_no: 8860315256,
+    role: 'user',
+    iat: 1724998289,
+    exp: 1727590289
+  }
+}
+8/30/2024, 12:00:46 PM: info:request params {
+  user_details: {
+    id: '66d1627d1fc42fd0ef82bf23',
+    name: 'Nitesh Mangla',
+    email: 'nitesh.mangla@myparkplus.com',
+    contact_no: 8860315256,
+    role: 'user',
+    iat: 1724998289,
+    exp: 1727590289
+  }
+}
+8/30/2024, 12:00:46 PM: info:request params {
+  user_details: {
+    id: '66d1627d1fc42fd0ef82bf23',
+    name: 'Nitesh Mangla',
+    email: 'nitesh.mangla@myparkplus.com',
+    contact_no: 8860315256,
+    role: 'user',
+    iat: 1724998289,
+    exp: 1727590289
+  }
+}
+8/30/2024, 12:02:03 PM: info:request params {
+  user_details: {
+    id: '66d1627d1fc42fd0ef82bf23',
+    name: 'Nitesh Mangla',
+    email: 'nitesh.mangla@myparkplus.com',
+    contact_no: 8860315256,
+    role: 'user',
+    iat: 1724998289,
+    exp: 1727590289
+  }
+}
+8/30/2024, 12:02:03 PM: info:request params {
+  user_details: {
+    id: '66d1627d1fc42fd0ef82bf23',
+    name: 'Nitesh Mangla',
+    email: 'nitesh.mangla@myparkplus.com',
+    contact_no: 8860315256,
+    role: 'user',
+    iat: 1724998289,
+    exp: 1727590289
+  }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../NodePractices/.idea/NodePractices.iml" filepath="$PROJECT_DIR$/../NodePractices/.idea/NodePractices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/express_tutorial.iml" filepath="$PROJECT_DIR$/.idea/express_tutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../project/fusion-frontend/.idea/fusion-frontend.iml" filepath="$PROJECT_DIR$/../project/fusion-frontend/.idea/fusion-frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../project/parkplus-lead-management/.idea/parkplus-lead-management.iml" filepath="$PROJECT_DIR$/../project/parkplus-lead-management/.idea/parkplus-lead-management.iml" />
+    </modules>
+  </component>
+</project>

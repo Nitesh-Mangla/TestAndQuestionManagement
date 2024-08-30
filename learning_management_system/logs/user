@@ -1,0 +1,74 @@
+
+8/29/2024, 5:02:37 PM: Info:{"name":"Kushal Kumar","email":"kanishk128.kumar@gmail.com","contact_no":998877655,"status":1,"role_name":"admin"} save user
+8/29/2024, 5:02:50 PM: Info:{"name":"Kushal Kumar","email":"kanishk128.kumar@gmail.com","contact_no":9988776558,"status":1,"role_name":"admin"} save user
+8/29/2024, 5:02:50 PM: Info:{"name":"Kushal Kumar","email":"kanishk128.kumar@gmail.com","contact_no":9988776558,"status":1,"role_name":"admin"} save user
+8/29/2024, 5:02:50 PM: error:'Password is required to encrypt.' undefined
+8/29/2024, 5:02:50 PM: error:'Password is required to encrypt.' undefined
+8/29/2024, 5:04:19 PM: Info:{"name":"Kushal Kumar","email":"kanishk128.kumar@gmail.com","contact_no":9988776558,"status":1,"role_name":"admin","password":""} save user
+8/29/2024, 5:04:19 PM: Info:{"name":"Kushal Kumar","email":"kanishk128.kumar@gmail.com","contact_no":9988776558,"status":1,"role_name":"admin","password":""} save user
+8/29/2024, 5:04:28 PM: Info:{"name":"Kushal Kumar","email":"kanishk128.kumar@gmail.com","contact_no":9988776558,"status":1,"role_name":"admin","password":"1234@qwsedf"} save user
+8/29/2024, 5:04:28 PM: Info:{"name":"Kushal Kumar","email":"kanishk128.kumar@gmail.com","contact_no":9988776558,"status":1,"role_name":"admin","password":"1234@qwsedf"} save user
+8/29/2024, 5:04:28 PM: error:Error: User validation failed: role_name: Path `role_name` is required.
+    at ValidationError.inspect (/Users/admin/Desktop/projects/assignment/node_modules/mongoose/lib/error/validation.js:50:26)
+    at formatValue (node:internal/util/inspect:805:19)
+    at Object.inspect (node:internal/util/inspect:364:10)
+    at exports.userCreate (/Users/admin/Desktop/projects/assignment/Controllers/User.js:136:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  errors: {
+    role_name: ValidatorError: Path `role_name` is required.
+        at validate (/Users/admin/Desktop/projects/assignment/node_modules/mongoose/lib/schemaType.js:1367:13)
+        at SchemaType.doValidate (/Users/admin/Desktop/projects/assignment/node_modules/mongoose/lib/schemaType.js:1351:7)
+        at /Users/admin/Desktop/projects/assignment/node_modules/mongoose/lib/document.js:2982:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `role_name` is required.',
+        type: 'required',
+        path: 'role_name',
+        fullPath: undefined,
+        value: null
+      },
+      kind: 'required',
+      path: 'role_name',
+      value: null,
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'User validation failed'
+} undefined
+8/29/2024, 5:04:28 PM: error:Error: User validation failed: role_name: Path `role_name` is required.
+    at ValidationError.inspect (/Users/admin/Desktop/projects/assignment/node_modules/mongoose/lib/error/validation.js:50:26)
+    at formatValue (node:internal/util/inspect:805:19)
+    at Object.inspect (node:internal/util/inspect:364:10)
+    at exports.userCreate (/Users/admin/Desktop/projects/assignment/Controllers/User.js:136:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  errors: {
+    role_name: ValidatorError: Path `role_name` is required.
+        at validate (/Users/admin/Desktop/projects/assignment/node_modules/mongoose/lib/schemaType.js:1367:13)
+        at SchemaType.doValidate (/Users/admin/Desktop/projects/assignment/node_modules/mongoose/lib/schemaType.js:1351:7)
+        at /Users/admin/Desktop/projects/assignment/node_modules/mongoose/lib/document.js:2982:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `role_name` is required.',
+        type: 'required',
+        path: 'role_name',
+        fullPath: undefined,
+        value: null
+      },
+      kind: 'required',
+      path: 'role_name',
+      value: null,
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'User validation failed'
+} undefined
+8/29/2024, 5:05:11 PM: Info:{"name":"Kushal Kumar","email":"kanishk128.kumar@gmail.com","contact_no":9988776558,"status":1,"role_name":"admin","password":"1234@qwsedf"} save user
+8/29/2024, 5:05:11 PM: Info:{"name":"Kushal Kumar","email":"kanishk128.kumar@gmail.com","contact_no":9988776558,"status":1,"role_name":"admin","password":"1234@qwsedf"} save user
+8/29/2024, 5:07:47 PM: Info:{"email":"kanishk128.kumar@gmail.com"} user save
+8/29/2024, 5:07:47 PM: Info:{"email":"kanishk128.kumar@gmail.com"} user save
+8/30/2024, 11:41:09 AM: Info:{"name":"Nitesh Mangla","email":"nitesh.mangla@myparkplus.com","contact_no":8860315256,"status":1,"role_name":"user","password":"Nitesh@8860"} save user
+8/30/2024, 11:41:09 AM: Info:{"name":"Nitesh Mangla","email":"nitesh.mangla@myparkplus.com","contact_no":8860315256,"status":1,"role_name":"user","password":"Nitesh@8860"} save user
